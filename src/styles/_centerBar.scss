@@ -1,0 +1,92 @@
+@import "variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lora&family=Montserrat:wght@800&display=swap');;
+
+.center {
+    position: relative;
+    width: 94%;
+    height: 100vh;
+    overflow: hidden;
+    @media screen and (max-width: 770px) {
+        left: 0%;
+        width: 100%;
+    }
+
+    .left-panel {
+        position: absolute;
+        background-color: $brightRed;
+        width: 50%;
+        height: 100vh;  
+        transition: 0.7s ease-in;
+    }
+
+    .right-panel {
+        position: absolute;
+        background-color: $cloud;
+        left: 50%;
+        width: 50%;
+        height: 100vh;
+    }
+    h1 {
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+        left: 34%;  
+        top: 30%;
+        font-size: 100px;
+        font-weight: 700;
+        transition: 0.7s ease-in;
+        span {
+            color: $brightRed;
+        }
+        @media screen and (max-width: 900px) {
+            position: absolute;
+            top: 30%;
+            left: 24%;
+        }
+        @media screen and (max-width: 600px) {
+            position: absolute;
+            top: 30%;
+            left: 22%;
+            font-size: 70px;
+            
+        }
+        @media screen and (max-width: 400px) {
+            position: absolute;
+            top: 30%;
+            left: 23%;
+            font-size: 45px;
+        }
+    }
+    .scroll {
+        font-size: 10px;
+        font-family: 'Lora', sans-serif;
+        color: $cloud;
+        position: absolute;
+        transform: rotate(90deg);
+        top: 86%;
+        left: 48%;
+    }
+    .first-about {
+        position: absolute;
+        opacity: 0;
+        top: 40%;
+        left: 15%;
+        transition: 0.3s ease;
+        .since {
+            font-size: 28px;
+            font-family: 'Allura', sans-serif;
+            padding-bottom: 14px;
+        }
+        .first-info {
+            font-size: 28px;
+            font-family: 'Lora', sans-serif;
+        }
+    }
+}
+
+.colorCloud {
+    color: $cloud;
+}
+.colorPurple {
+    color: $purePurple;
+}

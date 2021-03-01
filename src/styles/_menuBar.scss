@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300;700&display=swap');
+
+
+.menu {
+    width: 3%;
+    position: relative;
+    pointer-events: none;
+    transition: 0.4s ease;
+    @media screen and (max-width: 770px) {
+        display: none;
+    }
+}
+
+.burger {
+    position: fixed;
+    top: 50%;
+    left: 2%;
+    z-index: 1;
+    transform: rotate(180deg);
+    cursor: pointer;
+    pointer-events: auto;
+    .burger-top{
+        width: 13px;
+        background-color: black;
+        height: 1px;
+        transition: 0.2s ease-in-out;
+    }
+    .burger-mid {
+        width: 33px;
+        margin-top: 3px;
+        background-color: black;
+        height: 1px;
+        transition: 0.2s ease-in-out;
+    }
+    .burger-bot {
+        width: 23px;
+        margin-top: 3px;
+        background-color: black;
+        height: 1px;    
+        transition: 0.2s ease-in-out;
+    }
+   
+}
+
+.burger h3{
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Lora', sans-serif;
+    transform: rotate(90deg);
+    bottom: 2%;
+    right: 106%;
+    cursor: default;
+}
+
+.menu:hover {
+    z-index: 9;
+    width: 4%;
+}
+
+
+.menu:hover + .center{
+    width: 93%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.menu:hover .burger-top {
+    width: 20px;
+}
+.menu:hover .burger-bot {
+    width: 30px;
+}
+.menu:hover .burger-mid {
+    width: 40px;
+}
+
+

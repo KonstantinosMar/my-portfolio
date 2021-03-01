@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300;700&display=swap');
+
+
+.top {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+    h2 {
+        padding-left: 3%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        span {
+            font-weight: 700;
+        }
+    }
+}

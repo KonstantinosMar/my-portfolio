@@ -1,0 +1,40 @@
+.socials {
+    display: flex;
+    position: fixed;
+    left: 97%;
+    top: 46%;
+    flex-direction: column;
+    width: 3%;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 770px) {
+        display: none;
+    }
+}
+
+.socials a {
+    color:black;
+}
+
+a:visited {
+    color: none;
+}
+
+.linkedin:hover {
+    color: #1066C2;
+}
+.instagram:hover {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    //background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    //-webkit-background-clip: text;
+    //-webkit-text-fill-color: transparent;
+}
+.facebook:hover {
+    color: #3b5998;
+}

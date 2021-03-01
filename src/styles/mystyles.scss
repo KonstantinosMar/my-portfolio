@@ -1,0 +1,15 @@
+@import "variables";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+}
+
+.about-container {
+    height: 100vh;
+}
