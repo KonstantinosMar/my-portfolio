@@ -1,0 +1,28 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lora&family=Montserrat:wght@800&display=swap');;
+
+
+.header {
+    position: absolute;
+    top: 110px;
+    left: 90px;
+    .firstLine {
+        margin-bottom: 8px;
+        width: 130px;
+        height: 7px;
+        background-color: $purpleTingedGrey;
+    }
+    .secondLine {
+        margin-top: 8px;
+        width: 130px;
+        height: 7px;
+        background-color: $purpleTingedGrey;
+    }
+    h1 {
+        color: $purpleTingedGrey;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 89%;
+    }
+}

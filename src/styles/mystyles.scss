@@ -12,4 +12,12 @@
 
 .about-container {
     height: 100vh;
+    position: relative;
+    width: 94%;
+    left: 3%;
+    background-color: $cloud;
+    @media screen and (max-width: 770px) {
+        left: 0%;
+        width: 100%;
+    }
 }
