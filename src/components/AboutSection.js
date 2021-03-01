@@ -1,11 +1,14 @@
 import React from 'react';
-import Header from './Header'
+import HeaderAbout from './HeaderAbout';
+import Skills from './Skills';
 import '../styles/mystyles.scss';
+
 
 const AboutSection = () => {
     return (
       <div className="about-container">
-        <Header />
+        <HeaderAbout />
+        <Skills />
       </div>
     );
   }

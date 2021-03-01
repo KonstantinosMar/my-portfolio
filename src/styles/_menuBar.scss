@@ -52,17 +52,6 @@
     cursor: default;
 }
 
-.menu:hover {
-    z-index: 9;
-    width: 4%;
-}
-
-
-.menu:hover + .center{
-    width: 93%;
-    overflow: hidden;
-    z-index: -1;
-}
 
 .menu:hover .burger-top {
     width: 20px;

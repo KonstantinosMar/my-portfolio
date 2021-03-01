@@ -1,10 +1,10 @@
 
-import '../styles/_header.scss'
+import '../styles/_headerAbout.scss'
 
 
-const Header = () => {
+const HeaderAbout = () => {
     return (
-        <div className="header">
+        <div className="header-about">
             <div className="firstLine"></div>
             <h1>AB<br/>OUT.</h1>
             <div className="secondLine"></div>
@@ -12,4 +12,4 @@ const Header = () => {
     );
   }
   
-  export default Header;
+  export default HeaderAbout;
